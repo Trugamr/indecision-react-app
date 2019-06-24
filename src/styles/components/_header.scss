@@ -1,40 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
-    background: #14172A;
-    color: #01CB73;
-    margin-bottom: 4.8rem;
-    padding: 1.6rem 0;
+    background: $very-dark-blue;
+    color: $bright-green;
+    margin-bottom: $xl-size;
+    padding: $m-size 0;
 }
 
 .header__title {
-    font-size: 3.2rem;
+    font-size: $l-size;
     margin: 0;
 }
 
 .header__subtitle {
-    font-size: 1.6rem;
+    font-size: $m-size;
     font-weight: 500;
-    color: #E3EEE7;
+    color: $chill-white;
     margin: 0rem;
 }
-
-// {
-//     "FG": "#01CB73",
-//     "BG": "#14172A",
-//     "CU": "#01CB73",
-//     "0": "#14172A",
-//     "1": "#F24E4F",
-//     "2": "#01CB73",
-//     "3": "#E3EEE7",
-//     "4": "#00558C",
-//     "5": "#FA706F",
-//     "6": "#2091F7",
-//     "7": "#D7DCDF",
-//     "8": "#535353",
-//     "9": "#ED6170",
-//     "10": "#00CD72",
-//     "11": "#E3EEE7",
-//     "12": "#1F6CAE",
-//     "13": "#FA706F",
-//     "14": "#2091F7",
-//     "15": "#FFFFFD"
-//   }
